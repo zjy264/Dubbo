@@ -1,0 +1,60 @@
+server:
+  port: 8120
+spring:
+  redis:
+#    host: 173.82.155.113
+    host: 127.0.0.1
+    port: 6379
+    password: 200011
+    database: 0
+    timeout: 10000ms
+    lettuce:
+      pool:
+        max-active: 1024
+        max-wait: 10000ms
+        max-idle: 200
+        min-idle: 5
+  application:
+    name: dubbo
+  dubbo:
+    server: true
+    application:
+      name: provider
+    registry:
+      address: zookeeper://173.82.155.113:2181
+    protocol:
+      name: dubbo
+      port: 20880
+    scan: com.xxxx.provider.service.impl
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/bookstore?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true&rewriteBatchedStatements=true
+    username: root
+    password: 200011
+    jackson:
+      date-format: yyyy-MM-dd HH:mm:ss
+      time-zone: GMT+8
+      serialization:
+        write-dates-as-timestamps: false
+  mybatis-plus:
+    configuration:
+      map-underscore-to-camel-case: true
+      auto-mapping-behavior: full
+    #    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    mapper-locations: classpath*:mapper/**/*Mapper.xmls
+    global-config:
+      # 逻辑删除配置
+      db-config:
+        # 删除前
+        logic-not-delete-value: 1
+        # 删除后
+        logic-delete-value: 0
+  aliyun:
+    accessKeyID: LTAI4FztUFubFo7P3wVFsZqN
+    accessKeySecret: sOLfElXcRVnlCj2CR7SFFvm7OYumg2
+  rabbitmq:
+    host: 173.82.155.113
+    port: 5672
+    username: dubbo
+    password: 200011
+    virtual-host: /dubbo

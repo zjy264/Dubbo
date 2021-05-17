@@ -1,0 +1,43 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/bookstore?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true&rewriteBatchedStatements=true
+    username: root
+    password: 200011
+    jackson:
+      date-format: yyyy-MM-dd HH:mm:ss
+      time-zone: GMT+8
+      serialization:
+        write-dates-as-timestamps: false
+  mybatis-plus:
+    configuration:
+      map-underscore-to-camel-case: true
+      auto-mapping-behavior: full
+    #    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    mapper-locations: classpath*:mapper/**/*Mapper.xmls
+    global-config:
+      # 逻辑删除配置
+      db-config:
+        # 删除前
+        logic-not-delete-value: 1
+        # 删除后
+        logic-delete-value: 0
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: 200011
+    database: 0
+    timeout: 10000ms
+    lettuce:
+      pool:
+        max-active: 1024
+        max-wait: 10000ms
+        max-idle: 200
+        min-idle: 5
+#短信应用 SDK AppID
+tx:
+  sms:
+    appid: 1400480449
+    appkey: 181dae6618e38f4f3a052aa8b67b3880
+    smsSign: 生活中的book
+    templateId: 889719

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ff7281fc-bc00-465a-be32-b445a7b8c031" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Mymaven\apache-maven-3.6.3\LocalWareHouse" />
+        <option name="mavenHome" value="D:\Mymaven\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Mymaven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1rQgck13nc5IvSvH0QesJ7t66NQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-cloud" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\26488\zjy_kt\dubbo\dubbo-api\src\main\resources\mapper" />
+      <recent name="C:\Users\26488\zjy_kt\dubbo\spike\src\main\resources" />
+      <recent name="C:\Users\26488\zjy_kt\dubbo\dubbo-gen\src\main\java\com\xxxx" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xxxx.api.config" />
+      <recent name="com.xxxx.spike" />
+      <recent name="com.xxxx.search" />
+      <recent name="com.xxxx.api.uilt" />
+      <recent name="com.xxxx.consumer.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\26488\zjy_kt\dubbo\spike\src\main\java\com\xxxx\spike\config" />
+      <recent name="C:\Users\26488\zjy_kt\dubbo\dubbo-api\src\main\java\com\xxxx\api\entity" />
+      <recent name="C:\Users\26488\zjy_kt\dubbo\dubbo-elasticsearch\src\main\resources" />
+      <recent name="C:\Users\26488\zjy_kt\dubbo\dubbo-api\src\main\java\com\xxxx\api\uilt" />
+      <recent name="C:\Users\26488\zjy_kt\dubbo\dubbo-consumer\src\main\java\com\xxxx\consumer\controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DubboSpikeApplication">
+    <configuration name="CodeGenerator (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xxxx.spike.CodeGenerator" />
+      <module name="spike" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xxxx.spike.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubbo-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xxxx.consumer.DubboConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dubbo-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xxxx.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xxxx.provider.DubboProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboSpikeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spike" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xxxx.spike.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xxxx.spike.DubboSpikeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CodeGenerator (3)" />
+      <item itemvalue="Spring Boot.DubboConsumerApplication" />
+      <item itemvalue="Spring Boot.DubboProviderApplication" />
+      <item itemvalue="Spring Boot.DubboSpikeApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.DubboSpikeApplication" />
+        <item itemvalue="Spring Boot.DubboProviderApplication" />
+        <item itemvalue="Application.CodeGenerator (3)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff7281fc-bc00-465a-be32-b445a7b8c031" name="Default Changelist" comment="" />
+      <created>1618913808323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618913808323</updated>
+      <workItem from="1618913812607" duration="4933000" />
+      <workItem from="1618972805166" duration="2009000" />
+      <workItem from="1619014759202" duration="209000" />
+      <workItem from="1619059549542" duration="3056000" />
+      <workItem from="1619071121075" duration="2225000" />
+      <workItem from="1619073761735" duration="8587000" />
+      <workItem from="1619082475997" duration="5770000" />
+      <workItem from="1619090474903" duration="10766000" />
+      <workItem from="1619144431029" duration="3557000" />
+      <workItem from="1619159649507" duration="1675000" />
+      <workItem from="1619164759761" duration="9370000" />
+      <workItem from="1619179002542" duration="2679000" />
+      <workItem from="1619231944121" duration="14599000" />
+      <workItem from="1619318441546" duration="4739000" />
+      <workItem from="1619334382623" duration="4845000" />
+      <workItem from="1619355173895" duration="6296000" />
+      <workItem from="1619401837586" duration="10803000" />
+      <workItem from="1619415927706" duration="19494000" />
+      <workItem from="1619528444994" duration="3990000" />
+      <workItem from="1619588932325" duration="2810000" />
+      <workItem from="1619679459626" duration="2146000" />
+      <workItem from="1619757020654" duration="19499000" />
+      <workItem from="1619784514161" duration="5860000" />
+      <workItem from="1619846864406" duration="4366000" />
+      <workItem from="1620014077453" duration="4165000" />
+      <workItem from="1620175681369" duration="8935000" />
+      <workItem from="1620276234212" duration="15963000" />
+      <workItem from="1620350604664" duration="3511000" />
+      <workItem from="1620440826765" duration="5717000" />
+      <workItem from="1620471463924" duration="3823000" />
+      <workItem from="1620535713238" duration="3817000" />
+      <workItem from="1620542953143" duration="4580000" />
+      <workItem from="1620655383557" duration="145000" />
+      <workItem from="1620700120523" duration="3161000" />
+      <workItem from="1620703341430" duration="8187000" />
+      <workItem from="1620718399315" duration="19000" />
+      <workItem from="1620720730652" duration="1601000" />
+      <workItem from="1620726358236" duration="9000" />
+      <workItem from="1620734756963" duration="644000" />
+      <workItem from="1620797400793" duration="20083000" />
+      <workItem from="1620821805811" duration="2884000" />
+      <workItem from="1620872193004" duration="1536000" />
+      <workItem from="1620913347254" duration="898000" />
+      <workItem from="1620985549161" duration="1437000" />
+      <workItem from="1621042551142" duration="10603000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1620703234137">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1620703234137" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1620815778181">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1620815778181" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1621072224253">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1621072224253" />
+    <state width="1073" height="474" key="GridCell.Tab.0.bottom" timestamp="1621075702185">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1073" height="474" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621075702185" />
+    <state width="1073" height="474" key="GridCell.Tab.0.center" timestamp="1621075702185">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1073" height="474" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1621075702185" />
+    <state width="1073" height="474" key="GridCell.Tab.0.left" timestamp="1621075702185">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1073" height="474" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1621075702185" />
+    <state width="1073" height="474" key="GridCell.Tab.0.right" timestamp="1621075702185">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1073" height="474" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1621075702185" />
+    <state width="1073" height="474" key="GridCell.Tab.1.bottom" timestamp="1621075702186">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1073" height="474" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621075702186" />
+    <state width="1073" height="474" key="GridCell.Tab.1.center" timestamp="1621075702185">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1073" height="474" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1621075702185" />
+    <state width="1073" height="474" key="GridCell.Tab.1.left" timestamp="1621075702185">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1073" height="474" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1621075702185" />
+    <state width="1073" height="474" key="GridCell.Tab.1.right" timestamp="1621075702186">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1073" height="474" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1621075702186" />
+    <state x="270" y="57" key="SettingsEditor" timestamp="1621068936297">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1621068936297" />
+    <state x="530" y="286" width="617" height="281" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1621068923674">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="530" y="286" width="617" height="281" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.824@0.0.1536.824" timestamp="1621068923674" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
